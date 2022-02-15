@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `liamfoneill`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Liam F. O'Neill`,
+      summary: `A developer and architect who lives in the United Kingdom`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Liam's blog for sharing cool stuff.`,
+    siteUrl: `https://liamfoneill.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `liamfoneill`,
     },
   },
   plugins: [
