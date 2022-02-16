@@ -6,14 +6,14 @@ categories: ["PowerShell"]
 image: ./pwsh-girl.png
 ---
 
-####PowerShell
-```powershell {1}
+## PowerShell
+```powershell {numberLines}
 Get-CimInstance -ClassName Win32_Processor | `
 Select-Object -ExcludeProperty "CIM*"
 ```
 
-####HTML 
-```html {3,5-7}
+## HTML
+```html {numberLines}
 <!DOCTYPE html>
 <html>
 <body>
@@ -26,13 +26,13 @@ Select-Object -ExcludeProperty "CIM*"
 </html>
 ```
 
-####JavaScript
-```javascript
+## JavaScript
+```javascript {numberLines}
 function storeNames() { return arguments; }
 ```
 
-####JSON 
-```json {3,5-7}
+## JSON 
+```json {numberLines}
 {
     "glossary": {
         "title": "example glossary",
@@ -57,8 +57,8 @@ function storeNames() { return arguments; }
 }
 ```
 
-####Bicep
-```bicep
+## Bicep
+```bicep {numberLines}
 param location string = resourceGroup().location
 param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 
@@ -75,8 +75,8 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
 }
 ```
 
-####SQL
-```SQL
+## SQL
+```sql {numberLines}
 SELECT * FROM Customers
 WHERE Country='Mexico';
 ```
