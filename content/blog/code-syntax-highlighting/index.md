@@ -2,8 +2,8 @@
 title: Code Syntax Highlighting Test
 date: "2022-02-15T10:46:00.000Z"
 description: A blog post showing what code looks like when rendering in Prism.js and Gatsby.
-categories: ["PowerShell"]
-image: ./pwsh-girl.png
+category: How-To
+tags: ["PowerShell", "Bicep", "HTML", "JavaScript", "JSON", "SQL"]
 ---
 
 ## PowerShell
