@@ -1,0 +1,25 @@
+{
+    "name": "bicep",
+    "displayName": "bicep",
+    "description": "bicep syntax support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bicep",
+            "aliases": ["Bicep", "bicep"],
+            "extensions": [".bicep"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bicep",
+            "scopeName": "source.bicep",
+            "path": "./syntaxes/bicep.tmLanguage.json"
+        }]
+    }
+}

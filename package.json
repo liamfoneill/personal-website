@@ -8,6 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "bicep": "file:vendor/bicep",
     "gatsby": "^4.7.1",
     "gatsby-plugin-feed": "^4.7.0",
     "gatsby-plugin-gatsby-cloud": "^4.7.0",
@@ -29,8 +30,10 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "terraform": "file:vendor/terraform",
     "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "typeface-montserrat": "0.0.75",
+    "vscode-bicep": "file:vendor/bicep"
   },
   "devDependencies": {
     "prettier": "^2.5.1"

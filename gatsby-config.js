@@ -65,7 +65,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-vscode',
             options: {
-              theme: 'Dark+ (default dark)'
+              theme: 'Dark+ (default dark)',
+              extensions: ['terraform', 'bicep']
             }
           },
           `gatsby-remark-copy-linked-files`,

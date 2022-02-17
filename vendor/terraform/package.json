@@ -1,0 +1,27 @@
+{
+    "name": "terraform",
+    "displayName": "terraform",
+    "description": "Syntax for Terraform",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "terraform",
+            "aliases": ["Terraform", "terraform"],
+            "extensions": [
+                ".tf"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "terraform",
+            "scopeName": "source.terraform",
+            "path": "./syntaxes/terraform.tmLanguage.json"
+        }]
+    }
+}
